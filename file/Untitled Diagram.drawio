@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T09:27:16.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TdZ5HnNra_ASKGSs3YIZ" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T10:16:50.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7qdQx3N5vPDeoowUqcvS" version="14.7.3" type="github">
   <diagram id="HriOcDttCyKX-bXiYPCW" name="Page-1">
-    <mxGraphModel dx="1678" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2359" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
         <mxCell id="NyaL6x0_iCmJU8p4krJc-10" value="当前订单为其他流量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NyaL6x0_iCmJU8p4krJc-12" value="是否可以连环派？" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-12" value="是否可以连环派？" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="100" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NyaL6x0_iCmJU8p4krJc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyaL6x0_iCmJU8p4krJc-15" target="NyaL6x0_iCmJU8p4krJc-18">
@@ -253,7 +253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NyaL6x0_iCmJU8p4krJc-74" value="派单失败，系统取消" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NyaL6x0_iCmJU8p4krJc-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyaL6x0_iCmJU8p4krJc-78" target="NyaL6x0_iCmJU8p4krJc-80">
           <mxGeometry relative="1" as="geometry" />
@@ -272,20 +272,32 @@
         <mxCell id="NyaL6x0_iCmJU8p4krJc-80" value="assignCallback" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1350" y="570" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyaL6x0_iCmJU8p4krJc-82" target="NyaL6x0_iCmJU8p4krJc-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NyaL6x0_iCmJU8p4krJc-82" value="连环派单，待服务？" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1570" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NyaL6x0_iCmJU8p4krJc-85" value="不取消" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1455" y="420" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NyaL6x0_iCmJU8p4krJc-86" value="客服关单逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-86" value="客服关单逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="920" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NyaL6x0_iCmJU8p4krJc-87" value="活动取消逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-87" value="活动取消逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="760" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NyaL6x0_iCmJU8p4krJc-88" value="...." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyaL6x0_iCmJU8p4krJc-94" target="NyaL6x0_iCmJU8p4krJc-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-94" value="结束当前订单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyaL6x0_iCmJU8p4krJc-96" value="更新连环单为当前服务中订单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
